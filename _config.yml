@@ -1,11 +1,11 @@
 # Site settings
-author: RokhayaN
-title: 
+author: Rokhaya Ndiaye
+title:    Creating My First Project / Cli Data gem Portfolio      
 header-img: img/home-bg.png
 email: rokhayamuslima1@gmail.com
-copyright_name: RokhayaN
+copyright_name: Rokhaya Ndiaye
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My First Project
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  RokhayaN
