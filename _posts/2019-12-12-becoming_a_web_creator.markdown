@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "Becoming a web creator!"
-date:       2019-12-12 05:29:49 +0000
+date:       2019-12-12 00:29:50 -0500
 permalink:  becoming_a_web_creator
 ---
 
 
 
-![Bird building his nest ]("https://upload.wikimedia.org/wikipedia/commons/7/71/Black-headed_weaver_%28Ploceus_cucullatus_bohndorffi%29_male_nest_building.jpg?download"ttp://)
+![Bird buiding his nest]("https://upload.wikimedia.org/wikipedia/commons/7/71/Black-headed_weaver_%28Ploceus_cucullatus_bohndorffi%29_male_nest_building.jpg?download"ttp://)
 
 
 
