@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Nested form : Prefill the value for the parent ressource . "
-date:       2020-04-08 04:28:57 +0000
+date:       2020-04-08 00:28:58 -0400
 permalink:  nested_form_prefill_the_value_for_the_parent_ressource
 ---
 
