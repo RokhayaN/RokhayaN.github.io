@@ -1,15 +1,12 @@
 ---
 layout: post
-title:      "Nested form : Prefill the value for the parent ressource . "
+title:      "Nested form : Prefill the value of the parent ressource . "
 date:       2020-04-08 00:28:58 -0400
 permalink:  nested_form_prefill_the_value_for_the_parent_ressource
 ---
 
 
 
-
-
-![.]("https://i.ytimg.com/vi/VMaw41ccIlk/maxresdefault.jpg")
 
  Ruby on Rails’s collection_select form helper generates an HTTP 'select'  tag and <option> tags that render a dropdown menu with multiple options.
 Form helpers allow us to create html forms by using a lot less code. Not only that but some form helpers also handle session authentication, field pre-population, validation and a bunch of other useful tasks.
@@ -18,7 +15,7 @@ Form helpers allow us to create html forms by using a lot less code. Not only th
  In this particular case we will focuss on how to preselect or prefill the value for the parent ressource  in our nested form .
  I m building a new scene form and want a dropdown menu that preselect  the associated `actor`for an instance of Actor, @actor(parent-ressources) and the child `scene` in our nested form .
  
-  Here’s the basic structure to get us started.
+  Let's get it started :
  
 ```
 collection_select(:scene, :actor_id, Actor.all, :id, :name)
@@ -62,7 +59,7 @@ end
 below is my whole form notice than our method is being call in our form referencing the `:first_name` of our selected actor . 
 
 ```
-<h2> New Scene <%#scene.location%> </h2>
+<h2> New Scene </h2>
 
 
 <%= form_for @scene do |f|%>
