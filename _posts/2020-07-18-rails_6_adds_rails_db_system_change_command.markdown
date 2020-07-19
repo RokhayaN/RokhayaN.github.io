@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Rails 6 adds rails db:system:change command"
-date:       2020-07-19 00:16:52 +0000
+date:       2020-07-18 20:16:53 -0400
 permalink:  rails_6_adds_rails_db_system_change_command
 ---
 
@@ -11,7 +11,7 @@ permalink:  rails_6_adds_rails_db_system_change_command
  
  
  ``` 
- rails new . --api --database=postgresql
+ rails new plant-api-backend --api --database=postgresql
 
  ```
  
