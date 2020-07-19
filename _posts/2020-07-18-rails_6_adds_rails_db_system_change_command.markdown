@@ -6,7 +6,7 @@ permalink:  rails_6_adds_rails_db_system_change_command
 ---
 
 
- One of the main challenge i encountered while building my single page application Rails/Javascript Api was having my database in recovery mode . 
+ One of the main challenge i encountered while building my single page application Rails/Javascript Api was having my database on recovery mode . 
  It all started when after i created my backend-api with the following command 
  
  
@@ -16,7 +16,7 @@ permalink:  rails_6_adds_rails_db_system_change_command
  ```
  
  
- this part  ``` --database=postgresql ```  will make our database configuration specific to PostgreSQL . In my case i ran into an issue while running my migrations . 
+ This part  ``` --database=postgresql ```  will make our database configuration specific to PostgreSQL . In my case i ran into an issue while running my migrations . 
  
  Come to find out the reason why my rake was aborted the whole time has to do with my postgreslq setup from Homebrews since that s where the error was pointing . After several search on Stackoverflow and others forums and even changing it to the current version .The bug was still persisting .
 
